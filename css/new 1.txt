@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+3. JavaScript (script.js):
+
+javascript
+
+// You can use JavaScript to add interactivity, fetch environmental metrics, and display product recommendations.
+// Here's a simple example to fetch and display the current date:
+
+document.addEventListener("DOMContentLoaded", function () {
+    const dateElement = document.getElementById("current-date");
+    const currentDate = new Date();
+    dateElement.textContent = `Today's Date: ${currentDate.toDateString()}`;
+});
+
+This code provides a basic structure for your sustainability website. You can expand on this foundation by adding more JavaScript functionality to fetch environmental metrics, display product recommendations, and implement interactive features. Additionally, you can enhance the CSS styles to make the website visually appealing and aligned with sustainability themes.
